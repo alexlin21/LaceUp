@@ -11,6 +11,7 @@ fit and best competitions nearby. Some of our features include:
   - Accumulate accolades throughout your fitness journey
   - Track your progress and completed challenges
 - Challenges
+  - Great opportunity to try out new ways to stay active
   - Get suggestions based off your personal profile
   - Meet up with others or take the challenge on alone!
   - Challenges can range in intensity, size, and time

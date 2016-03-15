@@ -9,6 +9,7 @@ Ensure that you have pip installed first.
 
 ## Just Server
 1. Configure: `sudo vim /etc/apache2/sites-available/LaceUp.conf`
+
   ```
   <VirtualHost *:80>
   		ServerName <<SERVER_NAME_HERE>>
@@ -23,6 +24,7 @@ Ensure that you have pip installed first.
   		CustomLog ${APACHE_LOG_DIR}/access.log combined
   </VirtualHost>
   ```
+
 2. Enable Virtual Host: `sudo a2ensite LaceUp`
 3. Application goes in `/var/www/LaceUp`
   ```

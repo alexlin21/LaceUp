@@ -52,7 +52,7 @@ public class MyActivity extends AppCompatActivity {
     /** Called when the user clicks the timeline button */
     public void showTimeline(View view) {
         // Do something in response to button
-        Intent intent = new Intent(this, DisplayMessageActivity.class);
+        Intent intent = new Intent(this, Timeline.class);
         EditText editText = (EditText) findViewById(R.id.edit_message);
         // TODO: Put some sign up page logic here
         String message = "Timeline page";

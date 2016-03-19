@@ -27,6 +27,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.derekcoley.laceup.MyActivity" />
         </activity>
+        <activity
+            android:name=".Timeline"
+            android:label="@string/title_activity_timeline"
+            android:parentActivityName=".MyActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.derekcoley.laceup.MyActivity" />
+        </activity>
     </application>
 
 </manifest>

@@ -87,11 +87,26 @@ public class Timeline2 extends AppCompatActivity
         if (id == R.id.nav_camera) {
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
-
+            // Challenges
+            Intent intent = new Intent(this, Challenges.class);
+            // TODO: Put some sign up page logic here
+            String message = "Challenges";
+            intent.putExtra(EXTRA_MESSAGE, message);
+            startActivity(intent);
         } else if (id == R.id.nav_slideshow) {
-
+            // Matches
+            Intent intent = new Intent(this, AcceptedChallenges.class);
+            // TODO: Put some sign up page logic here
+            String message = "Accepted Challenges";
+            intent.putExtra(EXTRA_MESSAGE, message);
+            startActivity(intent);
         } else if (id == R.id.nav_manage) {
-
+            // Top Competitors
+            Intent intent = new Intent(this, TopCompetitors.class);
+            // TODO: Put some sign up page logic here
+            String message = "Top Competitors";
+            intent.putExtra(EXTRA_MESSAGE, message);
+            startActivity(intent);
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
@@ -101,6 +116,15 @@ public class Timeline2 extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public void challenges(View view) {
+        // Do something in response to button
+        Intent intent = new Intent(this, Challenges.class);
+        // TODO: Put some sign up page logic here
+        String message = "Challenges";
+        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
     }
 
     public void showProfile(View view) {

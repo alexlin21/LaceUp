@@ -8,6 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
         <activity android:name="com.facebook.FacebookActivity"
             android:configChanges=
@@ -17,6 +18,19 @@
         <provider android:authorities="com.facebook.app.FacebookContentProvider177024492679884"
             android:name="com.facebook.FacebookContentProvider"
             android:exported="true" />
+=======
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <uses-permission android:name="android.permission.INTERNET" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+>>>>>>> 7457660ca9fcdd91786819325f00941423f7974e
         <activity
             android:name=".MyActivity"
             android:label="@string/app_name"
@@ -69,6 +83,15 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.derekcoley.laceup.Timeline" />
+        </activity>
+        <activity
+            android:name=".Timeline2"
+            android:label="@string/title_activity_timeline2"
+            android:parentActivityName=".MyActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.derekcoley.laceup.MyActivity" />
         </activity>
     </application>
 

@@ -16,4 +16,10 @@
     <string name="accepted_challenges">Accepted Challenges</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
+    <string name="title_activity_timeline2">TIMELINE</string>
+    <string name="user_name">Alex Lin</string>
+    <string name="user_points">55 points</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>

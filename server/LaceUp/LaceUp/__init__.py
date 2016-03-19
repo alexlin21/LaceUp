@@ -107,6 +107,21 @@ def get_challenges():
             events_in_range.append(challenge)
     return jsonify(results=events_in_range)
 
+# POST:
+#   event_id
+#   user_email
+# TODO: Looks up bases on name. Switch to id
+@app.route("/accept-challenge", methods=['POST'])
+def accept_challenge():
+    event_name = request.args.get('name')
+    user_email = request.args.get('user_email')
+    challenge = db.challenges.find_one({"name": event_name})
+    challenges.update(
+        { '_id' : challenge['_id']},
+        {   "$addToSet": {'going': user_email}}
+    )
+    return "Hopefully it worked"
+
 def find_user(email):
     return db.users.find_one({"email": email})
 

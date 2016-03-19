@@ -19,6 +19,16 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/info"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="18sp"
+        android:layout_marginTop="208dp"
+        />
+
     <ImageView
         android:id="@+id/logo"
         android:layout_width="100dp"

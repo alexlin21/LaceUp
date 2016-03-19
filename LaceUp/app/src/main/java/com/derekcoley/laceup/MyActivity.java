@@ -38,12 +38,24 @@ public class MyActivity extends AppCompatActivity {
         return true;
     }
 
-    /** Called when the user clicks the Send button */
+    /** Called when the user clicks the sign up button */
     public void sendMessage(View view) {
         // Do something in response to button
         Intent intent = new Intent(this, DisplayMessageActivity.class);
         EditText editText = (EditText) findViewById(R.id.edit_message);
-        String message = editText.getText().toString();
+        // TODO: Put some sign up page logic here
+        String message = "Sign up page";
+        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
+    }
+
+    /** Called when the user clicks the timeline button */
+    public void showTimeline(View view) {
+        // Do something in response to button
+        Intent intent = new Intent(this, DisplayMessageActivity.class);
+        EditText editText = (EditText) findViewById(R.id.edit_message);
+        // TODO: Put some sign up page logic here
+        String message = "Timeline page";
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }

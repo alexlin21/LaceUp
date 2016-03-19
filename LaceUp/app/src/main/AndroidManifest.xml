@@ -43,6 +43,30 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.derekcoley.laceup.MyActivity" />
         </activity>
+        <activity
+            android:name=".TopCompetitors"
+            android:label="@string/title_activity_top_competitors"
+            android:parentActivityName=".Timeline">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.derekcoley.laceup.Timeline" />
+        </activity>
+        <activity
+            android:name=".Challenges"
+            android:label="@string/title_activity_challenges"
+            android:parentActivityName=".Timeline">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.derekcoley.laceup.Timeline" />
+        </activity>
+        <activity
+            android:name=".AcceptedChallenges"
+            android:label="@string/title_activity_accepted_challenges"
+            android:parentActivityName=".Timeline">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.derekcoley.laceup.Timeline" />
+        </activity>
     </application>
 
 </manifest>

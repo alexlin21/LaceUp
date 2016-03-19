@@ -7,15 +7,17 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 public class Timeline extends AppCompatActivity {
+    public final static String EXTRA_MESSAGE = "com.mycompany.myfirstapp.MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_display_message);
+        setContentView(R.layout.activity_timeline);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -30,14 +32,36 @@ public class Timeline extends AppCompatActivity {
         });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        Intent intent = getIntent();
-        String message = intent.getStringExtra(MyActivity.EXTRA_MESSAGE);
-        TextView textView = new TextView(this);
-        textView.setTextSize(40);
-        textView.setText(message);
+    }
 
-        RelativeLayout layout = (RelativeLayout) findViewById(R.id.content);
-        layout.addView(textView);
+    /** Called when the user clicks the timeline button */
+    public void topCompetitors(View view) {
+        // Do something in response to button
+        Intent intent = new Intent(this, TopCompetitors.class);
+        // TODO: Put some sign up page logic here
+        String message = "Top Competitors";
+        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
+    }
+
+    /** Called when the user clicks the timeline button */
+    public void challenges(View view) {
+        // Do something in response to button
+        Intent intent = new Intent(this, Challenges.class);
+        // TODO: Put some sign up page logic here
+        String message = "Challenges";
+        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
+    }
+
+    /** Called when the user clicks the timeline button */
+    public void acceptedChallenges(View view) {
+        // Do something in response to button
+        Intent intent = new Intent(this, AcceptedChallenges.class);
+        // TODO: Put some sign up page logic here
+        String message = "Accepted Challenges";
+        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
     }
 
 }

@@ -7,4 +7,11 @@
     <string name="title_activity_display_message">My Message</string>
     <string name="title_activity_timeline">Timeline</string>
     <string name="facebook_app_id">1820196734878184</string>
+    <string name="title_activity_top_competitors">Top Competitors</string>
+    <string name="title_activity_challenges">Challenges</string>
+    <string name="title_activity_accepted_challenges">Accepted Challenges</string>
+    <string name="timeline">Timeline</string>
+    <string name="top_competitors">Top Competitors</string>
+    <string name="challenges">Challenges</string>
+    <string name="accepted_challenges">Accepted Challenges</string>
 </resources>

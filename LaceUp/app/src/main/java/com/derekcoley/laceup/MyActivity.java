@@ -15,9 +15,14 @@ import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
 import com.facebook.FacebookSdk;
+import com.facebook.GraphRequest;
+import com.facebook.GraphResponse;
 import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 
 public class MyActivity extends AppCompatActivity {
@@ -48,13 +53,22 @@ public class MyActivity extends AppCompatActivity {
         loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
-                info.setText(
-                        "User ID: "
-                                + loginResult.getAccessToken().getUserId()
-                                + "\n" +
-                                "Auth Token: "
-                                + loginResult.getAccessToken().getToken()
-                );
+                GraphRequest request = GraphRequest.newMeRequest(loginResult.getAccessToken(),
+                        new GraphRequest.GraphJSONObjectCallback() {
+                            @Override
+                            public void onCompleted(JSONObject object,GraphResponse response) {
+                                try {
+                                    /* TODO: DMC Get information from login user here */
+                                    info.setText("Hi, " + object.getString("name"));
+                                } catch(JSONException ex) {
+                                    ex.printStackTrace();
+                                }
+                            }
+                        });
+                Bundle parameters = new Bundle();
+                parameters.putString("fields", "id,name,email,gender,birthday");
+                request.setParameters(parameters);
+                request.executeAsync();
             }
 
             @Override
@@ -82,22 +96,14 @@ public class MyActivity extends AppCompatActivity {
     }
 
     /** Called when the user clicks the sign up button */
-    public void sendMessage(View view) {
-        // Do something in response to button
-        Intent intent = new Intent(this, DisplayMessageActivity.class);
-        // TODO: Put some sign up page logic here
-        String message = "Sign up page";
-        // intent.putExtra(EXTRA_MESSAGE, message);
+    public void signUp(View view) {
+        Intent intent = new Intent(this, SignUp.class);
         startActivity(intent);
     }
 
     /** Called when the user clicks the timeline button */
     public void showTimeline(View view) {
-        // Do something in response to button
         Intent intent = new Intent(this, Timeline2.class);
-        // TODO: Put some sign up page logic here
-        String message = "Timeline page";
-        intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }
 
@@ -107,12 +113,10 @@ public class MyActivity extends AppCompatActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 }

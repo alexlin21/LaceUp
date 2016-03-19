@@ -31,34 +31,27 @@ public class Timeline extends AppCompatActivity {
 
     }
 
-    /** Called when the user clicks the timeline button */
+    /** Called when the user clicks the top competitors button */
     public void topCompetitors(View view) {
-        // Do something in response to button
         Intent intent = new Intent(this, TopCompetitors.class);
-        // TODO: Put some sign up page logic here
         String message = "Top Competitors";
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }
 
-    /** Called when the user clicks the timeline button */
+    /** Called when the user clicks the challenges button */
     public void challenges(View view) {
-        // Do something in response to button
         Intent intent = new Intent(this, Challenges.class);
-        // TODO: Put some sign up page logic here
         String message = "Challenges";
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }
 
-    /** Called when the user clicks the timeline button */
+    /** Called when the user clicks the accepted challenges button */
     public void acceptedChallenges(View view) {
-        // Do something in response to button
         Intent intent = new Intent(this, AcceptedChallenges.class);
-        // TODO: Put some sign up page logic here
         String message = "Accepted Challenges";
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }
-
 }

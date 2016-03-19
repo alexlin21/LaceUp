@@ -107,9 +107,9 @@ public class Timeline2 extends AppCompatActivity
             String message = "Top Competitors";
             intent.putExtra(EXTRA_MESSAGE, message);
             startActivity(intent);
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
+        } //else if (id == R.id.nav_share) {
+        //}
+        else if (id == R.id.nav_send) {
 
         }
 

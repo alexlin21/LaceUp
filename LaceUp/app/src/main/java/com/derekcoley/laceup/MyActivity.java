@@ -45,7 +45,7 @@ public class MyActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DisplayMessageActivity.class);
         // TODO: Put some sign up page logic here
         String message = "Sign up page";
-        intent.putExtra(EXTRA_MESSAGE, message);
+        // intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }
 

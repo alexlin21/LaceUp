@@ -93,7 +93,7 @@ public class MyActivity extends AppCompatActivity {
 
     /** Called when the user clicks the timeline button */
     public void showTimeline(View view) {
-        Intent intent = new Intent(this, Timeline2.class);
+        Intent intent = new Intent(this, Timeline.class);
         startActivity(intent);
     }
 

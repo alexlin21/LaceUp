@@ -42,15 +42,6 @@
                 android:value="com.derekcoley.laceup.MyActivity" />
         </activity>
         <activity
-            android:name=".Timeline"
-            android:label="@string/title_activity_timeline"
-            android:parentActivityName=".MyActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.derekcoley.laceup.MyActivity" />
-        </activity>
-        <activity
             android:name=".TopCompetitors"
             android:label="@string/title_activity_top_competitors"
             android:parentActivityName=".Timeline">
@@ -75,7 +66,7 @@
                 android:value="com.derekcoley.laceup.Timeline" />
         </activity>
         <activity
-            android:name=".Timeline2"
+            android:name=".Timeline"
             android:label="@string/title_activity_timeline2"
             android:parentActivityName=".MyActivity"
             android:theme="@style/AppTheme.NoActionBar">

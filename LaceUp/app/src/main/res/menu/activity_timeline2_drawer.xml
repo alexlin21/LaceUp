@@ -3,16 +3,20 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_timeline"
+            android:icon="@drawable/ic_view_headline_black_24dp"
+            android:title="Timeline" />
+        <item
+            android:id="@+id/nav_challenges"
             android:icon="@drawable/ic_fitness_center_black_24dp"
             android:title="Challenges" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_message_black_24dp"
+            android:id="@+id/nav_matches"
+            android:icon="@drawable/matches_icon"
             android:title="Matches" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_assignment_black_24dp"
+            android:id="@+id/nav_top_challengers"
+            android:icon="@drawable/top_challengers"
             android:title="Top Challengers" />
     </group>
 
@@ -22,12 +26,12 @@
                 android:id="@+id/nav_camera"
                 android:icon="@drawable/ic_account_circle_black_24dp"
                 android:title="My Profile" />
-            <!--<item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />-->
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/settings_icon"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_logout"
                 android:icon="@drawable/ic_highlight_off_black_24dp"
                 android:title="Log out" />
         </menu>

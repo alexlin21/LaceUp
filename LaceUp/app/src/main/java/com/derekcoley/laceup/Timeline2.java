@@ -27,15 +27,6 @@ public class Timeline2 extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -56,12 +47,12 @@ public class Timeline2 extends AppCompatActivity
         }
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.timeline2, menu);
-        return true;
-    }
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        // Inflate the menu; this adds items to the action bar if it is present.
+//        getMenuInflater().inflate(R.menu.timeline2, menu);
+//        return true;
+//    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -86,53 +77,40 @@ public class Timeline2 extends AppCompatActivity
 
         if (id == R.id.nav_camera) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_challenges) {
             // Challenges
             Intent intent = new Intent(this, Challenges.class);
             // TODO: Put some sign up page logic here
             String message = "Challenges";
             intent.putExtra(EXTRA_MESSAGE, message);
             startActivity(intent);
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_matches) {
             // Matches
             Intent intent = new Intent(this, AcceptedChallenges.class);
             // TODO: Put some sign up page logic here
             String message = "Accepted Challenges";
             intent.putExtra(EXTRA_MESSAGE, message);
             startActivity(intent);
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_top_challengers) {
             // Top Competitors
             Intent intent = new Intent(this, TopCompetitors.class);
             // TODO: Put some sign up page logic here
             String message = "Top Competitors";
             intent.putExtra(EXTRA_MESSAGE, message);
             startActivity(intent);
-        } //else if (id == R.id.nav_share) {
-        //}
-        else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_timeline) {
+            Intent intent = new Intent(this, Timeline2.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_settings) {
+            // Settings Activity Initiation
+
+        } else if (id == R.id.nav_logout) {
+            // Log out button
 
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
-    }
-
-    public void challenges(View view) {
-        // Do something in response to button
-        Intent intent = new Intent(this, Challenges.class);
-        // TODO: Put some sign up page logic here
-        String message = "Challenges";
-        intent.putExtra(EXTRA_MESSAGE, message);
-        startActivity(intent);
-    }
-
-    public void showProfile(View view) {
-        // Do something in response to button
-        Intent intent = new Intent(this, Profile.class);
-        // TODO: Put some sign up page logic here
-        String message = "Timeline page";
-        intent.putExtra(EXTRA_MESSAGE, message);
-        startActivity(intent);
     }
 }

@@ -21,6 +21,7 @@
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_timeline2"
         app:menu="@menu/activity_timeline2_drawer"
-        android:clickable="true" />
+        android:clickable="true"
+        android:backgroundTint="@color/colorAccent"/>
 
 </android.support.v4.widget.DrawerLayout>

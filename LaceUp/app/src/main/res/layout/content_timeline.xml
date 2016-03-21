@@ -11,5 +11,5 @@
     android:background="#FFFFFF"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".Timeline"
-    tools:showIn="@layout/app_bar_timeline2">
+    tools:showIn="@layout/app_bar_timeline">
 </RelativeLayout>

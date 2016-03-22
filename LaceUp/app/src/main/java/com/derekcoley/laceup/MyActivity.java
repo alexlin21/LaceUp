@@ -36,7 +36,6 @@ public class MyActivity extends AppCompatActivity {
         setContentView(R.layout.activity_my);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
         info = (TextView) findViewById(R.id.info);
         loginButton = (LoginButton) findViewById(R.id.login_button);
         LoginManager.getInstance().logOut();

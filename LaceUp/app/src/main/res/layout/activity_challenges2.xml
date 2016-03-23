@@ -13,15 +13,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <com.lorentzos.flingswipe.SwipeFlingAdapterView
-        android:id="@+id/frame"
-        android:background="#ffeee9e2"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:rotation_degrees="15.5"
-        tools:context="Challenges" />
-    <include layout="@layout/buttons" />
-
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"

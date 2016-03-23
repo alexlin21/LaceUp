@@ -1,14 +1,26 @@
 [
     {
-        "merged": "/Users/Coley/Documents/UW/CSE/LaceUp/LaceUp/example/build/intermediates/res/merged/debug/layout/buttons.xml",
-        "source": "/Users/Coley/Documents/UW/CSE/LaceUp/LaceUp/example/src/main/res/layout/buttons.xml"
+        "merged": "C:\\Users\\Alex\\Desktop\\Android\\LaceUp\\LaceUp\\example\\build\\intermediates\\res\\merged\\debug\\layout\\item.xml",
+        "source": "C:\\Users\\Alex\\Desktop\\Android\\LaceUp\\LaceUp\\example\\src\\main\\res\\layout\\item.xml"
     },
     {
-        "merged": "/Users/Coley/Documents/UW/CSE/LaceUp/LaceUp/example/build/intermediates/res/merged/debug/layout/activity_my.xml",
-        "source": "/Users/Coley/Documents/UW/CSE/LaceUp/LaceUp/example/src/main/res/layout/activity_my.xml"
+        "merged": "C:\\Users\\Coley\\Documents\\UW\\CSE\\LaceUp\\LaceUp\\example\\build\\intermediates\\res\\merged\\debug\\layout\\item.xml",
+        "source": "C:\\Users\\Coley\\Documents\\UW\\CSE\\LaceUp\\LaceUp\\example\\src\\main\\res\\layout\\item.xml"
     },
     {
-        "merged": "/Users/Coley/Documents/UW/CSE/LaceUp/LaceUp/example/build/intermediates/res/merged/debug/layout/item.xml",
-        "source": "/Users/Coley/Documents/UW/CSE/LaceUp/LaceUp/example/src/main/res/layout/item.xml"
+        "merged": "C:\\Users\\Coley\\Documents\\UW\\CSE\\LaceUp\\LaceUp\\example\\build\\intermediates\\res\\merged\\debug\\layout\\buttons.xml",
+        "source": "C:\\Users\\Coley\\Documents\\UW\\CSE\\LaceUp\\LaceUp\\example\\src\\main\\res\\layout\\buttons.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex\\Desktop\\Android\\LaceUp\\LaceUp\\example\\build\\intermediates\\res\\merged\\debug\\layout\\buttons.xml",
+        "source": "C:\\Users\\Alex\\Desktop\\Android\\LaceUp\\LaceUp\\example\\src\\main\\res\\layout\\buttons.xml"
+    },
+    {
+        "merged": "C:\\Users\\Coley\\Documents\\UW\\CSE\\LaceUp\\LaceUp\\example\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my.xml",
+        "source": "C:\\Users\\Coley\\Documents\\UW\\CSE\\LaceUp\\LaceUp\\example\\src\\main\\res\\layout\\activity_my.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex\\Desktop\\Android\\LaceUp\\LaceUp\\example\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my.xml",
+        "source": "C:\\Users\\Alex\\Desktop\\Android\\LaceUp\\LaceUp\\example\\src\\main\\res\\layout\\activity_my.xml"
     }
 ]

@@ -1,6 +1,7 @@
 package com.derekcoley.laceup;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -22,6 +23,12 @@ public class Challenges extends BaseMenu {
     private int i;
 
     @InjectView(R.id.frame) SwipeFlingAdapterView flingContainer;
+
+    /** Called when the user clicks the timeline button */
+    public void clickCard(View view) {
+        Intent intent = new Intent(this, Timeline.class);
+        startActivity(intent);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

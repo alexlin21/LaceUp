@@ -47,14 +47,6 @@
                 android:value="com.derekcoley.laceup.MyActivity" />
         </activity>
         <activity
-            android:name=".AcceptedChallenges"
-            android:label="@string/title_activity_accepted_challenges"
-            android:parentActivityName=".Timeline">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.derekcoley.laceup.Timeline" />
-        </activity>
-        <activity
             android:name=".Timeline"
             android:label="@string/title_activity_timeline2"
             android:parentActivityName=".MyActivity"
@@ -98,6 +90,15 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.derekcoley.laceup.Challenges" />
+        </activity>
+        <activity
+            android:name=".AcceptedChallenges"
+            android:label="@string/title_activity_accepted_challenges2"
+            android:parentActivityName=".MyActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.derekcoley.laceup.MyActivity" />
         </activity>
     </application>
 

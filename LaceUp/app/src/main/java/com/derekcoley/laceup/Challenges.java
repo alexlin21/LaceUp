@@ -75,12 +75,12 @@ public class Challenges extends BaseMenu {
                 //Do something on the left!
                 //You also have access to the original object.
                 //If you want to use it just cast it (String) dataObject
-                makeToast(Challenges.this, "Left!");
+                makeToast(Challenges.this, "Declined!");
             }
 
             @Override
             public void onRightCardExit(Object dataObject) {
-                makeToast(Challenges.this, "Right!");
+                makeToast(Challenges.this, "Accepted!");
             }
 
             @Override

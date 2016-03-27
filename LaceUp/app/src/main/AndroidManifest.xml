@@ -90,6 +90,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.derekcoley.laceup.MyActivity" />
         </activity>
+        <activity
+            android:name=".Card"
+            android:label="@string/title_activity_card"
+            android:parentActivityName=".Challenges"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.derekcoley.laceup.Challenges" />
+        </activity>
     </application>
 
 </manifest>

@@ -23,7 +23,6 @@
         android:background="#5AF" />
 
     <TextView
-        android:onClick="clickCard"
         android:id="@+id/helloText"
         android:textSize="40sp"
         android:textColor="@android:color/white"

@@ -29,7 +29,7 @@ public class Challenges extends BaseMenu {
     @InjectView(R.id.frame) SwipeFlingAdapterView flingContainer;
 
     /** Called when the user clicks the timeline button */
-    public void clickCard(View view) {
+    public void clickCard() {
         /* Pass in title and description to Card.class and instantiate one */
         Intent intent = new Intent(this, Card.class);
         intent.putExtra("title", al.get(index));
@@ -106,6 +106,7 @@ public class Challenges extends BaseMenu {
             @Override
             public void onItemClicked(int itemPosition, Object dataObject) {
                 index = itemPosition;
+                clickCard();
             }
         });
 

@@ -54,12 +54,11 @@ public class Challenges extends BaseMenu {
         ButterKnife.inject(this);
         al = new ArrayList<>();
         String[] titles = {"Run Greenlake", "3-on-3 Basketball Game"};
-        al.add(titles[0]);
-        String desc = "Run a fucking lap around Greenlake, bitch.";
-        cMap.put(titles[0], desc);
-        al.add(titles[1]);
-        desc = "First to 21.";
-        cMap.put(titles[1], desc);
+        String[] desc = {"Run a fucking lap around Greenlake.", "First to 21."};
+        for (int i = 0; i < titles.length; i++) {
+            al.add(titles[i]);
+            cMap.put(titles[i], desc[i]);
+        }
         arrayAdapter = new ArrayAdapter<>(this, R.layout.item, R.id.helloText, al );
         flingContainer.setAdapter(arrayAdapter);
         flingContainer.setFlingListener(new SwipeFlingAdapterView.onFlingListener() {

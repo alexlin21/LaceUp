@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Coley\\Documents\\UW\\CSE\\LaceUp\\LaceUp\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "outputFile": "/Users/Coley/Documents/UW/CSE/LaceUp/LaceUp/C:\\Users\\Coley\\Documents\\UW\\CSE\\LaceUp\\LaceUp\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 365
                 },
                 "from": {
-                    "file": "C:\\Users\\Coley\\Documents\\UW\\CSE\\LaceUp\\LaceUp\\library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "/Users/Coley/Documents/UW/CSE/LaceUp/LaceUp/C:\\Users\\Coley\\Documents\\UW\\CSE\\LaceUp\\LaceUp\\library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -31,7 +31,7 @@
                     "endOffset": 546
                 },
                 "from": {
-                    "file": "C:\\Users\\Coley\\Documents\\UW\\CSE\\LaceUp\\LaceUp\\library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "/Users/Coley/Documents/UW/CSE/LaceUp/LaceUp/C:\\Users\\Coley\\Documents\\UW\\CSE\\LaceUp\\LaceUp\\library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -45,7 +45,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\Alex\\Desktop\\Android\\LaceUp\\LaceUp\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "outputFile": "/Users/Coley/Documents/UW/CSE/LaceUp/LaceUp/library/build/intermediates/res/merged/androidTest/debug/values/values.xml",
         "map": [
             {
                 "to": {
@@ -56,7 +56,7 @@
                     "endOffset": 365
                 },
                 "from": {
-                    "file": "C:\\Users\\Alex\\Desktop\\Android\\LaceUp\\LaceUp\\library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "/Users/Coley/Documents/UW/CSE/LaceUp/LaceUp/library/build/intermediates/bundles/debug/res/values/values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -76,7 +76,52 @@
                     "endOffset": 546
                 },
                 "from": {
-                    "file": "C:\\Users\\Alex\\Desktop\\Android\\LaceUp\\LaceUp\\library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "/Users/Coley/Documents/UW/CSE/LaceUp/LaceUp/library/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 370,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 546
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/Coley/Documents/UW/CSE/LaceUp/LaceUp/C:\\Users\\Alex\\Desktop\\Android\\LaceUp\\LaceUp\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 315,
+                    "endColumn": 54,
+                    "endOffset": 365
+                },
+                "from": {
+                    "file": "/Users/Coley/Documents/UW/CSE/LaceUp/LaceUp/C:\\Users\\Alex\\Desktop\\Android\\LaceUp\\LaceUp\\library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 315,
+                        "endColumn": 54,
+                        "endOffset": 365
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 370,
+                    "endLine": 8,
+                    "endColumn": 12,
+                    "endOffset": 546
+                },
+                "from": {
+                    "file": "/Users/Coley/Documents/UW/CSE/LaceUp/LaceUp/C:\\Users\\Alex\\Desktop\\Android\\LaceUp\\LaceUp\\library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

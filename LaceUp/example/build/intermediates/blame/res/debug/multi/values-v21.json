@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Alex\\Desktop\\Android\\LaceUp\\LaceUp\\example\\build\\intermediates\\res\\merged\\debug\\values-v21\\values-v21.xml",
+        "outputFile": "/Users/Coley/Documents/UW/CSE/LaceUp/LaceUp/example/build/intermediates/res/merged/debug/values-v21/values-v21.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,33 @@
                     "endOffset": 125
                 },
                 "from": {
-                    "file": "C:\\Users\\Alex\\Desktop\\Android\\LaceUp\\LaceUp\\example\\src\\main\\res\\values-v21\\styles.xml",
+                    "file": "/Users/Coley/Documents/UW/CSE/LaceUp/LaceUp/example/src/main/res/values-v21/styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 3,
+                        "endColumn": 12,
+                        "endOffset": 125
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/Coley/Documents/UW/CSE/LaceUp/LaceUp/C:\\Users\\Alex\\Desktop\\Android\\LaceUp\\LaceUp\\example\\build\\intermediates\\res\\merged\\debug\\values-v21\\values-v21.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 3,
+                    "endColumn": 12,
+                    "endOffset": 125
+                },
+                "from": {
+                    "file": "/Users/Coley/Documents/UW/CSE/LaceUp/LaceUp/C:\\Users\\Alex\\Desktop\\Android\\LaceUp\\LaceUp\\example\\src\\main\\res\\values-v21\\styles.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -26,7 +52,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\Coley\\Documents\\UW\\CSE\\LaceUp\\LaceUp\\example\\build\\intermediates\\res\\merged\\debug\\values-v21\\values-v21.xml",
+        "outputFile": "/Users/Coley/Documents/UW/CSE/LaceUp/LaceUp/C:\\Users\\Coley\\Documents\\UW\\CSE\\LaceUp\\LaceUp\\example\\build\\intermediates\\res\\merged\\debug\\values-v21\\values-v21.xml",
         "map": [
             {
                 "to": {
@@ -38,7 +64,7 @@
                     "endOffset": 125
                 },
                 "from": {
-                    "file": "C:\\Users\\Coley\\Documents\\UW\\CSE\\LaceUp\\LaceUp\\example\\src\\main\\res\\values-v21\\styles.xml",
+                    "file": "/Users/Coley/Documents/UW/CSE/LaceUp/LaceUp/C:\\Users\\Coley\\Documents\\UW\\CSE\\LaceUp\\LaceUp\\example\\src\\main\\res\\values-v21\\styles.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

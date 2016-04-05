@@ -7,6 +7,7 @@ import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+import com.facebook.login.LoginManager;
 
 public class BaseMenu extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -72,11 +73,14 @@ public class BaseMenu extends AppCompatActivity
             Intent intent = new Intent(this, Timeline.class);
             startActivity(intent);
         } else if (id == R.id.nav_settings) {
-            // Settings Activity Initiation
-
+            // Take User to Settings
+            Intent intent = new Intent(this, Settings.class);
+            startActivity(intent);
         } else if (id == R.id.nav_logout) {
             // Log out button
-
+            LoginManager.getInstance().logOut();
+            Intent intent = new Intent(this, MyActivity.class);
+            startActivity(intent);
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

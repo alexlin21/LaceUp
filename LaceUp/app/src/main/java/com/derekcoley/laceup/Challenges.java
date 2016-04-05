@@ -22,9 +22,8 @@ import butterknife.OnClick;
 public class Challenges extends BaseMenu {
     private ArrayList<String> al;
     private ArrayAdapter<String> arrayAdapter;
-    private int i;
-    private int index;
     private Map<String, String> cMap;
+    private int index;
 
     @InjectView(R.id.frame) SwipeFlingAdapterView flingContainer;
 
@@ -85,11 +84,11 @@ public class Challenges extends BaseMenu {
 
             @Override
             public void onAdapterAboutToEmpty(int itemsInAdapter) {
-                // Ask for more data here
-                al.add("XML ".concat(String.valueOf(i)));
-                arrayAdapter.notifyDataSetChanged();
-                Log.d("LIST", "notified");
-                i++;
+                  // Ask for more data here
+//                al.add("XML ".concat(String.valueOf(i)));
+//                arrayAdapter.notifyDataSetChanged();
+//                Log.d("LIST", "notified");
+//                i++;
             }
 
             @Override

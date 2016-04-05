@@ -1,10 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\Coley\\Documents\\UW\\CSE\\LaceUp\\LaceUp\\example\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\Coley\\Documents\\UW\\CSE\\LaceUp\\LaceUp\\example\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+        "merged": "/Users/Coley/Documents/UW/CSE/LaceUp/LaceUp/C:\\Users\\Coley\\Documents\\UW\\CSE\\LaceUp\\LaceUp\\example\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "/Users/Coley/Documents/UW/CSE/LaceUp/LaceUp/C:\\Users\\Coley\\Documents\\UW\\CSE\\LaceUp\\LaceUp\\example\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Alex\\Desktop\\Android\\LaceUp\\LaceUp\\example\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\Alex\\Desktop\\Android\\LaceUp\\LaceUp\\example\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+        "merged": "/Users/Coley/Documents/UW/CSE/LaceUp/LaceUp/C:\\Users\\Alex\\Desktop\\Android\\LaceUp\\LaceUp\\example\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "/Users/Coley/Documents/UW/CSE/LaceUp/LaceUp/C:\\Users\\Alex\\Desktop\\Android\\LaceUp\\LaceUp\\example\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Coley/Documents/UW/CSE/LaceUp/LaceUp/example/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/Users/Coley/Documents/UW/CSE/LaceUp/LaceUp/example/src/main/res/drawable-mdpi/ic_launcher.png"
     }
 ]
